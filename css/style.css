@@ -95,7 +95,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -141,7 +141,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -267,7 +267,7 @@ button {
 /*---------------------------- 
 loader  
 ----------------------------*/
-
+/* 
 .loader_bg {
      position: fixed;
      z-index: 9999999;
@@ -290,7 +290,7 @@ loader
 .loader img {
      width: 280px;
 }
-
+ */
 
 /*--------------------------------------------------------------------- 
 header 
@@ -370,13 +370,13 @@ ul.email li i {
 /** banner_main **/
 
 #top_section {
-     background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 150px;
-    position: relative;
-    height: 132vh;
-    background-position: center;
+     background-image: url(../images/home_bg.JPG);
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-top: 150px;
+     position: relative;
+     height: 132vh;
+     background-position: center;
 }
 
 #myCarousel .carousel-indicators {
@@ -1015,7 +1015,7 @@ ul.social_icon li a:hover {
 .inner_page .header {
      box-shadow: 0 -3px 20px 0px #717171;
      position: inherit;
-   
+
 }
 
 .inner_page .about {
