@@ -95,7 +95,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -141,7 +141,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -267,7 +267,7 @@ button {
 /*---------------------------- 
 loader  
 ----------------------------*/
-
+/* 
 .loader_bg {
      position: fixed;
      z-index: 9999999;
@@ -289,23 +289,52 @@ loader
 
 .loader img {
      width: 280px;
-}
+} */
 
 
 /*--------------------------------------------------------------------- 
 header 
 ---------------------------------------------------------------------*/
 
-.header {
+/* .header {
      width: 100%;
      background: rgba(39, 43, 44, 0.87);
-     height: 135px;
-     padding: 37px 30px;
+     height: 65 px;
+     padding: 10px 0px;
      position: absolute;
      z-index: 999;
      box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
+} */
+.header {
+     width: 100%;
+     background: rgba(39, 43, 44, 0.87);
+     height: 100px;
+     padding: 10px 0px;
+     position: fixed;
+     /* Change from absolute to fixed */
+     top: 0;
+     z-index: 999;
+     box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
+     transition: top 0.3s;
+     /* Add a smooth transition effect */
 }
 
+.logo_section {
+     padding: 0px;
+}
+
+.logo_section img {
+     width: 80px;
+     height: auto;
+}
+
+.navbar-nav {
+     margin-left: auto;
+}
+
+.navbar-collapse {
+     justify-content: flex-end;
+}
 
 /*--------------------------------------------------------------------- 
 menu section
@@ -317,9 +346,9 @@ menu section
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0px 30px;
+     padding: 30px 15px;
      color: #fff;
-     font-size: 17px;
+     font-size: 16px;
      line-height: 20px;
      font-weight: 400;
 }
@@ -370,13 +399,13 @@ ul.email li i {
 /** banner_main **/
 
 #top_section {
-     background-image: url(../images/banner.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 150px;
-    position: relative;
-    height: 132vh;
-    background-position: center;
+     background-image: url(../images/home_bg.JPG);
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-top: 150px;
+     position: relative;
+     height: 132vh;
+     background-position: center;
 }
 
 #myCarousel .carousel-indicators {
@@ -446,7 +475,7 @@ ul.email li i {
 
 .we_do {
      background: #fff;
-     padding: 90px 0 190px 0;
+     padding: 150px 0 190px 0;
 }
 
 .we_do .titlepage::before {
@@ -575,7 +604,7 @@ ul.email li i {
 /** portfolio **/
 
 .portfolio {
-     padding-top: 90px;
+     padding-top: 150px;
      padding-bottom: 90px;
      background: #fff;
 }
@@ -603,7 +632,7 @@ ul.email li i {
 }
 
 #ho_nf:hover .portfolio_text {
-     height: 240px;
+     height: 420px;
      transition: ease-in all 0.5s;
      padding: 40px 40px;
 }
@@ -932,7 +961,7 @@ ul.email li i {
 }
 
 .Informa li {
-     font-size: 17px;
+     font-size: 14px;
      line-height: 37px;
      color: #ffffff;
 }
@@ -1015,7 +1044,7 @@ ul.social_icon li a:hover {
 .inner_page .header {
      box-shadow: 0 -3px 20px 0px #717171;
      position: inherit;
-   
+
 }
 
 .inner_page .about {
