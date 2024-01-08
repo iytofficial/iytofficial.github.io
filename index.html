@@ -86,6 +86,26 @@
       background-color: #007bff;
       color: #fff;
    }
+   .text-overlay {
+      position: relative;
+      color: white; /* Text color for "Institute of Young Talents" */
+   }
+
+   .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Adjust the background color and opacity here */
+      pointer-events: none;
+   }
+
+   .bright-text {
+      position: relative; /* Ensure text is above overlay */
+      z-index: 1; /* Ensure text is above overlay */
+      color: white; /* Bright and white text color */
+   }
 </style>
 <!-- body -->
 
@@ -230,15 +250,14 @@
                      <div class="carousel-item active">
                         <div class="container-fluid">
                            <div class="carousel-caption relative">
-                              <div class="bluid">
-                                 <h1>Institute of Young Talents </h1>
-
-                                 <!-- <a class="read_more" href="about.html">About Company </a><a class="read_more"
-                                    href="contact.html">Contact </a> -->
+                              <div class="bluid text-overlay">
+                                 <div class="overlay"></div>
+                                 <h1 class="bright-text">Institute of Young Talents</h1>
                               </div>
                            </div>
                         </div>
                      </div>
+                  </div>
                      <!-- <div class="carousel-item">
                         <div class="container-fluid">
                            <div class="carousel-caption relative">
