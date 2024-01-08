@@ -153,7 +153,10 @@
                   <div class="full">
                      <div class="center-desk">
                         <img src="images/logo.png" style="width: 80px; height: auto;">
+                        <span class="logo-text" style="color: white; font-size: 18px;">Institute of Young Talents</span>
+                        
                      </div>
+                     
                   </div>
                </div>
             </div>
@@ -163,6 +166,7 @@
                      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                   </button>
+                  
                   <div class="collapse navbar-collapse" id="navbarsExample04">
                      <ul class="navbar-nav mr-auto">
                         <!-- Your navigation links go here -->
@@ -232,9 +236,21 @@
                               <div class="bluid">
                                  <h1>Institute of Young Talents </h1>
 
-                                 <a class="read_more" href="about.html">About Company </a><a class="read_more"
-                                    href="contact.html">Contact </a>
+                                 <!-- <a class="read_more" href="about.html">About Company </a><a class="read_more"
+                                    href="contact.html">Contact </a> -->
                               </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div class="carousel-item">
+                        <div class="container-fluid">
+                           <div class="carousel-caption relative">
+                              <div class="bluid">
+                                 <h1>Creative <br> Thinking </h1> -->
+
+                                 <!-- <a class="read_more" href="about.html">About Company </a><a class="read_more"
+                                    href="contact.html">Contact </a> -->
+                              <!-- </div>
                            </div>
                         </div>
                      </div>
@@ -242,11 +258,11 @@
                         <div class="container-fluid">
                            <div class="carousel-caption relative">
                               <div class="bluid">
-                                 <h1>Creative <br> Thinking </h1>
+                                 <h1>Youth <br> Empowerment </h1> -->
 
-                                 <a class="read_more" href="about.html">About Company </a><a class="read_more"
-                                    href="contact.html">Contact </a>
-                              </div>
+                                 <!-- <a class="read_more" href="about.html">About Company </a><a class="read_more"
+                                    href="contact.html">Contact </a> -->
+                              <!-- </div>
                            </div>
                         </div>
                      </div>
@@ -254,35 +270,23 @@
                         <div class="container-fluid">
                            <div class="carousel-caption relative">
                               <div class="bluid">
-                                 <h1>Youth <br> Empowerment </h1>
+                                 <h1> Enhancing <br> Talents </h1> -->
 
-                                 <a class="read_more" href="about.html">About Company </a><a class="read_more"
-                                    href="contact.html">Contact </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="container-fluid">
-                           <div class="carousel-caption relative">
-                              <div class="bluid">
-                                 <h1> Enhancing <br> Talents </h1>
-
-                                 <a class="read_more" href="about.html">About Company </a><a class="read_more"
-                                    href="contact.html">Contact </a>
-                              </div>
+                                 <!-- <a class="read_more" href="about.html">About Company </a><a class="read_more"
+                                    href="contact.html">Contact </a> -->
+                              <!-- </div> -->
                            </div>
                         </div>
                      </div>
                   </div>
-                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                  <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                      <i class="fa fa-angle-left" aria-hidden="true"></i>
                      <span class="sr-only">Previous</span>
                   </a>
                   <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
                      <i class="fa fa-angle-right" aria-hidden="true"></i>
                      <span class="sr-only">Next</span>
-                  </a>
+                  </a> -->
                </div>
             </div>
          </div>
@@ -598,7 +602,7 @@
                   <i><img src="images/chose1.png" alt="#" /></i>
                   <h3>Course Videos </h3>
                   <strong>20+</strong>
-                  <a class="read_more" href="por">Read More</a>
+                  <a class="read_more" href="courses.html">Read More</a>
                </div>
             </div>
             <div class="col-lg-5 col-md-4">
